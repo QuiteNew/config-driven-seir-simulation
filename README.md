@@ -6,14 +6,6 @@ Built for research, education, and experimentation.
 
 ---
 
-## 📷 Preview
-
-<p align="center">
-  <img width="900" alt="dashboard" src="screenshots/dashboard.png">
-</p>
-
----
-
 # Features
 
 ### ✅ SEIR Model

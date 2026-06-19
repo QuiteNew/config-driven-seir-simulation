@@ -1,25 +1,25 @@
-# 🦠 Epidemic Simulation Dashboard
+# Config-Driven SEIR Epidemic Simulation Dashboard with Multi-Run Uncertainty Bands and Scenario Comparison
 
-A config-driven SEIR epidemic simulator with intervention modeling, multi-run uncertainty analysis, and scenario comparison.
+A config-driven SEIR epidemic simulator featuring stochastic modeling and multi-run uncertainty visualization. Test lockdowns and vaccination campaigns instantly using a high-performance FastAPI backend and React dashboard.
 
-Built for research, education, and experimentation.
+Built for the [2026 CIIT conference](https://ciit.finki.ukim.mk/).
 
 ---
 
-# Features
+## Features
 
-### ✅ SEIR Model
+### SEIR Model
 - Susceptible → Exposed → Infected → Recovered
 - Daily timestep simulation
 - Configurable population and disease parameters
 
-### ✅ Intervention Scenarios
+### Intervention Scenarios
 - Baseline (No interventions)
 - Lockdown
 - Vaccination
 - Lockdown + Vaccination
 
-### ✅ Multi-Run Simulation
+### Multi-Run Simulation
 Run multiple stochastic simulations using different random seeds.
 
 Outputs:
@@ -27,7 +27,7 @@ Outputs:
 - Low uncertainty band
 - High uncertainty band
 
-### ✅ Scenario Comparison
+### Scenario Comparison
 Compare two intervention strategies side-by-side.
 
 Examples:
@@ -35,7 +35,7 @@ Examples:
 - Lockdown vs Baseline
 - Lockdown + Vaccination vs Lockdown
 
-### ✅ Interactive Dashboard
+### Interactive Dashboard
 Built with React and Recharts.
 
 Includes:
@@ -45,7 +45,7 @@ Includes:
 - Export charts as PNG
 - Export data as CSV
 
-### ✅ FastAPI Backend
+### FastAPI Backend
 REST API endpoints for:
 - Single simulation
 - Multi-run aggregation
@@ -53,7 +53,7 @@ REST API endpoints for:
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 epidemic-sim/
@@ -86,7 +86,7 @@ epidemic-sim/
 
 ---
 
-# Architecture
+## Architecture
 
 ```text
         React Dashboard
@@ -106,7 +106,7 @@ epidemic-sim/
 
 ---
 
-# Simulation Parameters
+## Simulation Parameters
 
 | Parameter | Description |
 |------------|-------------|
@@ -121,7 +121,7 @@ epidemic-sim/
 
 ---
 
-# Multi-Run Settings
+## Multi-Run Settings
 
 | Parameter | Description |
 |------------|-------------|
@@ -139,7 +139,7 @@ These bands represent uncertainty between multiple stochastic runs.
 
 ---
 
-# Scenario Presets
+## Scenario Presets
 
 ## Baseline
 No interventions.
@@ -155,7 +155,7 @@ Combines both interventions.
 
 ---
 
-# Backend Installation
+## Backend Installation
 
 ```bash
 cd backend
@@ -211,7 +211,7 @@ http://localhost:5173
 
 ---
 
-# API Endpoints
+## API Endpoints
 
 ### Health Check
 
@@ -255,7 +255,7 @@ Compares two intervention strategies.
 
 ---
 
-# Example Workflow
+## Example Workflow
 
 1. Start backend
 
@@ -287,7 +287,7 @@ http://localhost:5173
 
 ---
 
-# Technologies
+## Technologies
 
 ### Backend
 - Python
@@ -304,21 +304,7 @@ http://localhost:5173
 
 ---
 
-# Future Work
-
-Planned improvements include:
-
-- Validation with real epidemic datasets
-- Experiment runner for automated studies
-- Additional intervention policies
-- Age-structured populations
-- Deterministic vs stochastic comparison
-- Enhanced statistical analysis
-- Result export and reporting tools
-
----
-
-# Authors
+## Authors
 
 **Konstantin Pandilovski**  
 **Ivo Sardzoski Teovski**  
@@ -329,6 +315,6 @@ CIIT 2026 Project
 
 ---
 
-# License
+## License
 
 MIT License
